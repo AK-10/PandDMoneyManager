@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11330B041EFFA84F002B1BCD /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11330B031EFFA84F002B1BCD /* Realm.framework */; };
+		11330B061EFFBA2F002B1BCD /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11330B051EFFBA2F002B1BCD /* Account.swift */; };
+		114ACDD11EFF9D350098B698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114ACDD01EFF9D350098B698 /* AppDelegate.swift */; };
+		114ACDD31EFF9D350098B698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114ACDD21EFF9D350098B698 /* ViewController.swift */; };
+		114ACDD61EFF9D350098B698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114ACDD41EFF9D350098B698 /* Main.storyboard */; };
+		114ACDD81EFF9D350098B698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114ACDD71EFF9D350098B698 /* Assets.xcassets */; };
+		114ACDDB1EFF9D350098B698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114ACDD91EFF9D350098B698 /* LaunchScreen.storyboard */; };
+		114ACDE61EFF9D360098B698 /* DepositTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114ACDE51EFF9D360098B698 /* DepositTests.swift */; };
+		114ACDF11EFF9D360098B698 /* DepositUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114ACDF01EFF9D360098B698 /* DepositUITests.swift */; };
+		116D4C291F1CFB0B00FE5C66 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116D4C281F1CFB0B00FE5C66 /* Parameters.swift */; };
+		119540B91EFFF38C008F7E8B /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119540B81EFFF38C008F7E8B /* RegistViewController.swift */; };
+		119540BB1F001395008F7E8B /* InfomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119540BA1F001395008F7E8B /* InfomationViewController.swift */; };
+		119540BD1F0114E3008F7E8B /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119540BC1F0114E3008F7E8B /* MoneyViewController.swift */; };
+		2947393C90AD24B7748CC935 /* Pods_Deposit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABF0613C10ADD763329B060 /* Pods_Deposit.framework */; };
+		A17E0BD9D274D65DF8EFB5FE /* Pods_DepositUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3A2C752AEDEB1B0E9C306B /* Pods_DepositUITests.framework */; };
+		D8F9BF898DBB0ADB6EFC989E /* Pods_DepositTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7160BA87A74B18FB02CCEDB8 /* Pods_DepositTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		114ACDE21EFF9D360098B698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114ACDC51EFF9D350098B698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114ACDCC1EFF9D350098B698;
+			remoteInfo = Deposit;
+		};
+		114ACDED1EFF9D360098B698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114ACDC51EFF9D350098B698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114ACDCC1EFF9D350098B698;
+			remoteInfo = Deposit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0709500DB378B5FC0A662889 /* Pods-DepositUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DepositUITests/Pods-DepositUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1006F235949E12BA9F1AB857 /* Pods-Deposit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deposit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deposit/Pods-Deposit.debug.xcconfig"; sourceTree = "<group>"; };
+		11330B031EFFA84F002B1BCD /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "Pods/../build/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
+		11330B051EFFBA2F002B1BCD /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		114ACDCD1EFF9D350098B698 /* Deposit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deposit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		114ACDD01EFF9D350098B698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		114ACDD21EFF9D350098B698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		114ACDD51EFF9D350098B698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		114ACDD71EFF9D350098B698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		114ACDDA1EFF9D350098B698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		114ACDDC1EFF9D350098B698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114ACDE11EFF9D360098B698 /* DepositTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepositTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114ACDE51EFF9D360098B698 /* DepositTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositTests.swift; sourceTree = "<group>"; };
+		114ACDE71EFF9D360098B698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114ACDEC1EFF9D360098B698 /* DepositUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepositUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114ACDF01EFF9D360098B698 /* DepositUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositUITests.swift; sourceTree = "<group>"; };
+		114ACDF21EFF9D360098B698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116D4C281F1CFB0B00FE5C66 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		119540B81EFFF38C008F7E8B /* RegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		119540BA1F001395008F7E8B /* InfomationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfomationViewController.swift; sourceTree = "<group>"; };
+		119540BC1F0114E3008F7E8B /* MoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		5FB3F12DC069B14164588661 /* Pods-DepositUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DepositUITests/Pods-DepositUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7160BA87A74B18FB02CCEDB8 /* Pods_DepositTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DepositTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3A2C752AEDEB1B0E9C306B /* Pods_DepositUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DepositUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABF0613C10ADD763329B060 /* Pods_Deposit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deposit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4580D3615757FD7D31C1DF9 /* Pods-Deposit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deposit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Deposit/Pods-Deposit.release.xcconfig"; sourceTree = "<group>"; };
+		E8F2A1EEC9AA7C809126B1AB /* Pods-DepositTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DepositTests/Pods-DepositTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9FD958EE4E86009C3C76C8B /* Pods-DepositTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DepositTests/Pods-DepositTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		114ACDCA1EFF9D350098B698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11330B041EFFA84F002B1BCD /* Realm.framework in Frameworks */,
+				2947393C90AD24B7748CC935 /* Pods_Deposit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114ACDDE1EFF9D360098B698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F9BF898DBB0ADB6EFC989E /* Pods_DepositTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114ACDE91EFF9D360098B698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17E0BD9D274D65DF8EFB5FE /* Pods_DepositUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114ACDC41EFF9D350098B698 = {
+			isa = PBXGroup;
+			children = (
+				114ACDCF1EFF9D350098B698 /* Deposit */,
+				114ACDE41EFF9D360098B698 /* DepositTests */,
+				114ACDEF1EFF9D360098B698 /* DepositUITests */,
+				114ACDCE1EFF9D350098B698 /* Products */,
+				2554E71F80EAECABCD98F4D6 /* Pods */,
+				BDF559520E35BE269C1CE66D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		114ACDCE1EFF9D350098B698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114ACDCD1EFF9D350098B698 /* Deposit.app */,
+				114ACDE11EFF9D360098B698 /* DepositTests.xctest */,
+				114ACDEC1EFF9D360098B698 /* DepositUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		114ACDCF1EFF9D350098B698 /* Deposit */ = {
+			isa = PBXGroup;
+			children = (
+				116D4C2A1F1CFD6800FE5C66 /* swiftFile */,
+				114ACDD71EFF9D350098B698 /* Assets.xcassets */,
+				114ACDD91EFF9D350098B698 /* LaunchScreen.storyboard */,
+				114ACDDC1EFF9D350098B698 /* Info.plist */,
+			);
+			path = Deposit;
+			sourceTree = "<group>";
+		};
+		114ACDE41EFF9D360098B698 /* DepositTests */ = {
+			isa = PBXGroup;
+			children = (
+				114ACDE51EFF9D360098B698 /* DepositTests.swift */,
+				114ACDE71EFF9D360098B698 /* Info.plist */,
+			);
+			path = DepositTests;
+			sourceTree = "<group>";
+		};
+		114ACDEF1EFF9D360098B698 /* DepositUITests */ = {
+			isa = PBXGroup;
+			children = (
+				114ACDF01EFF9D360098B698 /* DepositUITests.swift */,
+				114ACDF21EFF9D360098B698 /* Info.plist */,
+			);
+			path = DepositUITests;
+			sourceTree = "<group>";
+		};
+		116D4C2A1F1CFD6800FE5C66 /* swiftFile */ = {
+			isa = PBXGroup;
+			children = (
+				11330B051EFFBA2F002B1BCD /* Account.swift */,
+				114ACDD01EFF9D350098B698 /* AppDelegate.swift */,
+				116D4C281F1CFB0B00FE5C66 /* Parameters.swift */,
+				119540BC1F0114E3008F7E8B /* MoneyViewController.swift */,
+				119540BA1F001395008F7E8B /* InfomationViewController.swift */,
+				119540B81EFFF38C008F7E8B /* RegistViewController.swift */,
+				114ACDD21EFF9D350098B698 /* ViewController.swift */,
+				114ACDD41EFF9D350098B698 /* Main.storyboard */,
+			);
+			name = swiftFile;
+			sourceTree = "<group>";
+		};
+		2554E71F80EAECABCD98F4D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1006F235949E12BA9F1AB857 /* Pods-Deposit.debug.xcconfig */,
+				D4580D3615757FD7D31C1DF9 /* Pods-Deposit.release.xcconfig */,
+				E9FD958EE4E86009C3C76C8B /* Pods-DepositTests.debug.xcconfig */,
+				E8F2A1EEC9AA7C809126B1AB /* Pods-DepositTests.release.xcconfig */,
+				0709500DB378B5FC0A662889 /* Pods-DepositUITests.debug.xcconfig */,
+				5FB3F12DC069B14164588661 /* Pods-DepositUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDF559520E35BE269C1CE66D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11330B031EFFA84F002B1BCD /* Realm.framework */,
+				AABF0613C10ADD763329B060 /* Pods_Deposit.framework */,
+				7160BA87A74B18FB02CCEDB8 /* Pods_DepositTests.framework */,
+				7E3A2C752AEDEB1B0E9C306B /* Pods_DepositUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		114ACDCC1EFF9D350098B698 /* Deposit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114ACDF51EFF9D360098B698 /* Build configuration list for PBXNativeTarget "Deposit" */;
+			buildPhases = (
+				997BC5F5436FFA242B934F01 /* [CP] Check Pods Manifest.lock */,
+				114ACDC91EFF9D350098B698 /* Sources */,
+				114ACDCA1EFF9D350098B698 /* Frameworks */,
+				114ACDCB1EFF9D350098B698 /* Resources */,
+				6149127017ADC91F50D30D88 /* [CP] Embed Pods Frameworks */,
+				3BD60F438D3D5A727460A592 /* [CP] Copy Pods Resources */,
+				113A145D1F1C9945004E9ABB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deposit;
+			productName = Deposit;
+			productReference = 114ACDCD1EFF9D350098B698 /* Deposit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		114ACDE01EFF9D360098B698 /* DepositTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114ACDF81EFF9D360098B698 /* Build configuration list for PBXNativeTarget "DepositTests" */;
+			buildPhases = (
+				EAD88E726B263A90378FCAF3 /* [CP] Check Pods Manifest.lock */,
+				114ACDDD1EFF9D360098B698 /* Sources */,
+				114ACDDE1EFF9D360098B698 /* Frameworks */,
+				114ACDDF1EFF9D360098B698 /* Resources */,
+				94ACB5FA60839101C667130A /* [CP] Embed Pods Frameworks */,
+				6DDC7035DFF94AD46457064C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114ACDE31EFF9D360098B698 /* PBXTargetDependency */,
+			);
+			name = DepositTests;
+			productName = DepositTests;
+			productReference = 114ACDE11EFF9D360098B698 /* DepositTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		114ACDEB1EFF9D360098B698 /* DepositUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114ACDFB1EFF9D360098B698 /* Build configuration list for PBXNativeTarget "DepositUITests" */;
+			buildPhases = (
+				3D99EA7C2358547A18F05D67 /* [CP] Check Pods Manifest.lock */,
+				114ACDE81EFF9D360098B698 /* Sources */,
+				114ACDE91EFF9D360098B698 /* Frameworks */,
+				114ACDEA1EFF9D360098B698 /* Resources */,
+				FC88ED376E612440E6FB4C45 /* [CP] Embed Pods Frameworks */,
+				B71D2D382BC98AB994146630 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114ACDEE1EFF9D360098B698 /* PBXTargetDependency */,
+			);
+			name = DepositUITests;
+			productName = DepositUITests;
+			productReference = 114ACDEC1EFF9D360098B698 /* DepositUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		114ACDC51EFF9D350098B698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "小西篤志";
+				TargetAttributes = {
+					114ACDCC1EFF9D350098B698 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2E5E462W28;
+						ProvisioningStyle = Automatic;
+					};
+					114ACDE01EFF9D360098B698 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 114ACDCC1EFF9D350098B698;
+					};
+					114ACDEB1EFF9D360098B698 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 114ACDCC1EFF9D350098B698;
+					};
+				};
+			};
+			buildConfigurationList = 114ACDC81EFF9D350098B698 /* Build configuration list for PBXProject "Deposit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 114ACDC41EFF9D350098B698;
+			productRefGroup = 114ACDCE1EFF9D350098B698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114ACDCC1EFF9D350098B698 /* Deposit */,
+				114ACDE01EFF9D360098B698 /* DepositTests */,
+				114ACDEB1EFF9D360098B698 /* DepositUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114ACDCB1EFF9D350098B698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114ACDDB1EFF9D350098B698 /* LaunchScreen.storyboard in Resources */,
+				114ACDD81EFF9D350098B698 /* Assets.xcassets in Resources */,
+				114ACDD61EFF9D350098B698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114ACDDF1EFF9D360098B698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114ACDEA1EFF9D360098B698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113A145D1F1C9945004E9ABB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 04fddab44a5f9a163666dd7b683ad1c17139eafc 9d63ee9d2510047a553347a14d0f6d157d3e15b78adebd0084e85700c1f065c4";
+		};
+		3BD60F438D3D5A727460A592 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deposit/Pods-Deposit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D99EA7C2358547A18F05D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6149127017ADC91F50D30D88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Deposit/Pods-Deposit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DDC7035DFF94AD46457064C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositTests/Pods-DepositTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94ACB5FA60839101C667130A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositTests/Pods-DepositTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997BC5F5436FFA242B934F01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B71D2D382BC98AB994146630 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositUITests/Pods-DepositUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD88E726B263A90378FCAF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC88ED376E612440E6FB4C45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositUITests/Pods-DepositUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		114ACDC91EFF9D350098B698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119540BB1F001395008F7E8B /* InfomationViewController.swift in Sources */,
+				116D4C291F1CFB0B00FE5C66 /* Parameters.swift in Sources */,
+				114ACDD31EFF9D350098B698 /* ViewController.swift in Sources */,
+				114ACDD11EFF9D350098B698 /* AppDelegate.swift in Sources */,
+				119540BD1F0114E3008F7E8B /* MoneyViewController.swift in Sources */,
+				119540B91EFFF38C008F7E8B /* RegistViewController.swift in Sources */,
+				11330B061EFFBA2F002B1BCD /* Account.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114ACDDD1EFF9D360098B698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114ACDE61EFF9D360098B698 /* DepositTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114ACDE81EFF9D360098B698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114ACDF11EFF9D360098B698 /* DepositUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		114ACDE31EFF9D360098B698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 114ACDCC1EFF9D350098B698 /* Deposit */;
+			targetProxy = 114ACDE21EFF9D360098B698 /* PBXContainerItemProxy */;
+		};
+		114ACDEE1EFF9D360098B698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 114ACDCC1EFF9D350098B698 /* Deposit */;
+			targetProxy = 114ACDED1EFF9D360098B698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		114ACDD41EFF9D350098B698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114ACDD51EFF9D350098B698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		114ACDD91EFF9D350098B698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114ACDDA1EFF9D350098B698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		114ACDF31EFF9D360098B698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "P&D電子マネー";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		114ACDF41EFF9D360098B698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "P&D電子マネー";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		114ACDF61EFF9D360098B698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1006F235949E12BA9F1AB857 /* Pods-Deposit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = 2E5E462W28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+				);
+				INFOPLIST_FILE = Deposit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.domain.Deposit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		114ACDF71EFF9D360098B698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4580D3615757FD7D31C1DF9 /* Pods-Deposit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = 2E5E462W28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+				);
+				INFOPLIST_FILE = Deposit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.domain.Deposit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		114ACDF91EFF9D360098B698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FD958EE4E86009C3C76C8B /* Pods-DepositTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DepositTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.domain.DepositTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deposit.app/Deposit";
+			};
+			name = Debug;
+		};
+		114ACDFA1EFF9D360098B698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F2A1EEC9AA7C809126B1AB /* Pods-DepositTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DepositTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.domain.DepositTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deposit.app/Deposit";
+			};
+			name = Release;
+		};
+		114ACDFC1EFF9D360098B698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0709500DB378B5FC0A662889 /* Pods-DepositUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DepositUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.domain.DepositUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Deposit;
+			};
+			name = Debug;
+		};
+		114ACDFD1EFF9D360098B698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FB3F12DC069B14164588661 /* Pods-DepositUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DepositUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.domain.DepositUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Deposit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114ACDC81EFF9D350098B698 /* Build configuration list for PBXProject "Deposit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114ACDF31EFF9D360098B698 /* Debug */,
+				114ACDF41EFF9D360098B698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114ACDF51EFF9D360098B698 /* Build configuration list for PBXNativeTarget "Deposit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114ACDF61EFF9D360098B698 /* Debug */,
+				114ACDF71EFF9D360098B698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114ACDF81EFF9D360098B698 /* Build configuration list for PBXNativeTarget "DepositTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114ACDF91EFF9D360098B698 /* Debug */,
+				114ACDFA1EFF9D360098B698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114ACDFB1EFF9D360098B698 /* Build configuration list for PBXNativeTarget "DepositUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114ACDFC1EFF9D360098B698 /* Debug */,
+				114ACDFD1EFF9D360098B698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 114ACDC51EFF9D350098B698 /* Project object */;
+}
