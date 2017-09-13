@@ -70,3 +70,4 @@ fastlane/test_output
 
 # file
 Deposit/Parameters.swift
+.DS_Store

@@ -62,8 +62,7 @@ class RealmService{
         let credential = SyncCredentials.usernamePassword(username: Parameters.username, password: Parameters.password,register: false)
         
         SyncUser.logIn(with: credential, server: Parameters.serverURL!, onCompletion: { user, error in
-            if let unwrappeduser = user{
-            } else if let unwrappederror = error{
+            if let unwrappederror = error{
                 fatalError(String(describing: error))
             }
             DispatchQueue.main.async {
